@@ -2,26 +2,25 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="candle realm, site for those interested in candles in dublin, ireland">
-    <meta name="keywords" content="candles, candle making, organic candles, ireland, dublin">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="candle realm, site for those interested in candles in dublin, ireland" />
+    <meta name="keywords" content="candles, candle making, organic candles, homemade candles, ireland, dublin" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Candle Realm</title>
 </head>
 
 <body>
-
     <!-- Header section -->
-    <header>
+    <header id="header">
         <a href="index.html">
-            <h1>Candle Realm</h1>
+            <h1>Candle <i class="fas fa-feather-alt"></i> Realm</h1>
         </a>
 
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="signup.html">Sign Up</a></li>
             </ul>
@@ -31,75 +30,145 @@
 
     <!-- Hero section -->
     <section id="hero">
-        <div id="hero-img">
-            <h1>Welcome to Candle Realm</h1>
-            <p>Create your own, unique candle experience</p>
+        <div id="hero-img"></div>
+        <div id="hero-title">
+            <h1 class="hero-heading">Welcome to Candle Realm</h1>
+            <p class="hero-text">Create your own, unique candle experience...</p>
         </div>
     </section>
     <!-- End of Hero section -->
 
     <!-- Main section -->
-    <section id="main">
+    <section>
+        <div id="main">
+            <div class="md-text">
+                <h2>
+                    We are not just making candles, but also bringing warmth into your
+                    home!
+                </h2>
+                <p>
+                    Our candles are all made by hand and all of our products have been
+                    tested.
+                </p>
+                <p>
+                    We incourage people to go with healthy alternatives such as Beewswax
+                    or Soy Wax but we also stock Paraffin wax.
+                </p>
+            </div>
 
-        <div id="main-description">
-            <h2>We are not just making candles, but also bringing warmth into your home!</h2>
+            <!-- Wax examples -->
+            <div id="wax">
+                <h3 class="wax-title">
+                    Have a look below at some of the key differences between those
+                    three:
+                </h3>
+                <div id="wax-info">
+                    <div id="wax-type">
+                        <div class="bee wax-img"></div>
+                        <div class="wax-text">
+                            <h3>BeesWax</h3>
+                            <p>
+                                Oldest material used for candles. Beeswax candles have even
+                                been found in the pyramids of ancient Egypt!
+                            </p>
+                            <p>
+                                Beeswax is an all-natural, non-toxic substance used to make
+                                bee honeycombs.
+                            </p>
+                            <p>
+                                Not used often for scented candles as it has its own honey
+                                aroma.
+                            </p>
+                        </div>
+                    </div>
 
-            <p>Our candles are all made by hand and all of our products have been tested.</p>
-            <p>We only use natural wax such as Soy or Beeswax.</p>
-            <p>Even though the strongest fragrance can be found in paraffin candles</p>
+                    <div id="wax-type">
+                        <div class="soy wax-img"></div>
+                        <div class="wax-text">
+                            <h3>Soy Wax</h3>
+                            <p>
+                                Comes from soybean oil which is more sustainable and
+                                environmentally friendly.
+                            </p>
+                            <p>
+                                It is a great choice for those wanting to live the
+                                vegan/vegetarian lifestyle.
+                            </p>
+                            <p>
+                                Soy wax is often blended with other waxes to capitalize on the
+                                best of both waxes.
+                            </p>
+                            <p>Known to have mild softer fragrance.</p>
+                        </div>
+                    </div>
 
-            <h2>Some of the key differences between Beeswax, Soy Wax and Paraffin Wax</h2>
+                    <div id="wax-type">
+                        <div class="para wax-img"></div>
+                        <div class="wax-text">
+                            <h3>Paraffin Wax</h3>
+                            <p>
+                                The most common material for the mass market simply for its
+                                price.
+                            </p>
+                            <p>
+                                It comes with a lot of downsides to your health and
+                                environment.
+                            </p>
+                            <p>It is a final byproduct of petroleum.</p>
+                            <p>Known to produce the strongest fragrances.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Wax examples -->
+
+            <!-- Wax Video Comparison -->
+            <div id="candle-compare-section">
+                <h3>
+                    Below is a time lapse of all three candles burning. Find out which
+                    will last the longest!
+                </h3>
+                <div class="candle-vid">
+                    <video controls>
+                        <source src="assets/video/candle-comparison-video.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+            <!-- Wax Video Comparison -->
         </div>
-
-
-        <div class="beeswax-img"></div>
-        <h3>BeesWax</h3>
-        <p>Oldest material used for candles. Beeswax candles have even been found in the pyramids of ancient Egypt!
-            Beeswax is an all-natural, non-toxic substance used to make bee honeycombs. Not used often for scented
-            candles as it has its own honey aroma.</p>
-
-        <div class="soywax-img"></div>
-        <h3>Soy Wax</h3>
-        <p>Comes from soybean oil which is more sustainable and environmentally friendly. It is a great choice for those
-            wanting to live the vegan/vegetarian lifestyle. Soy wax is often blended with other waxes to capitalize on
-            the best of both waxes. Known to have mild softer fragrance.</p>
-
-        <div class="parrafin-img"></div>
-        <h3>Paraffin Wax</h3>
-        <p>The most common material for the mass market simply for its price.
-            It comes with a lot of downsides to your health and environment. It is a final byproduct of petroleum. Known
-            to produce the strongest fragrances.</p>
-
-
-        <h3>Below is a time lapse of all three candles burning. Find out which will last the longest</h3>
-        <video width="320" height="240" controls>
-            <source src="assets/video/candle-comparison-video.mp4" type="video/mp4">
-        </video>
     </section>
     <!-- End of Main section -->
 
-    <!-- Social Links Section -->
+    <!-- Footer section -->
     <footer>
-        <footer>
-            <ul class="social-media-section">
-                <li><a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li><a href="https://twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
-        </footer>
+        <ul class="s-media">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
+
+        <div id="brand">
+            <h3>Candle <i class="fas fa-feather-alt"></i> Realm</h3>
+            <p>Copyright © 2021 Candle Realm. All rights reserved.</p>
+        </div>
     </footer>
-    <!-- End of Social Links Section -->
+    <!-- End of Footer section -->
 
     <!-- font awesome script -->
     <script src="https://kit.fontawesome.com/741f9a3d52.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
