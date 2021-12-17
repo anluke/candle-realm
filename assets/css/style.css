@@ -205,6 +205,7 @@ body {
 
 .candle-vid video {
     display: block;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
     margin: 2rem auto 150px auto;
     width: 100%;
     max-width: 1000px;
