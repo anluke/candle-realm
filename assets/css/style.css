@@ -39,11 +39,30 @@ body {
     padding: 0 30px;
 }
 
+#header a {
+    text-decoration: none;
+    color: #aed9e0;
+}
+
+#logo {
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #aed9e0;
+}
+
+#logo i {
+    color: #ffa69e;
+}
+
 #menu {
     padding-right: 70px;
 }
 
 #menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 1.6rem;
     transition: 0.5s ease transform;
 }
 
@@ -53,31 +72,6 @@ body {
 
 #menu a:hover {
     border-bottom: hidden;
-}
-
-#header p {
-    font-size: 50px;
-    letter-spacing: 2px;
-    color: #aed9e0;
-}
-
-#header i {
-    color: #ffa69e;
-}
-
-#header li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 25px;
-    font-size: 1.6rem;
-}
-
-#header a {
-    text-decoration: none;
-    color: #aed9e0;
-}
-
-#header a:hover {
     color: #ffa69e;
 }
 
@@ -100,22 +94,21 @@ body {
     padding: 0 0 30% 40%;
 }
 
-.hero-heading {
+.hero-title {
     font-weight: 400;
     font-size: 70px;
     letter-spacing: 2px;
     padding-bottom: 5rem;
 }
 
-.hero-para {
+.hero-text {
     font-size: 30px;
     letter-spacing: 2px;
 }
 
-#hero-text {
-    margin-top: 200px;
-}
-
+/* #hero-text {
+  margin-top: 200px;
+} */
 /* End of Hero section */
 
 /* Main section */
@@ -197,7 +190,7 @@ body {
     overflow: hidden;
 }
 
-#wax-type {
+.wax-type {
     padding: 0 20px;
 }
 
@@ -414,13 +407,13 @@ footer {
         position: relative;
     }
 
-    #hero h1 {
+    .hero-title {
         position: absolute;
         top: 200px;
         right: 400px;
     }
 
-    #hero p {
+    .hero-text {
         position: absolute;
         top: 300px;
         right: 400px;
@@ -447,9 +440,6 @@ footer {
     #hero {
         background-position-x: -1cm;
         padding: 0 0 30% 0;
-    }
-
-    #hero-text {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -458,7 +448,7 @@ footer {
         padding: 0;
     }
 
-    .para {
+    .hero-text {
         margin-top: 50px;
     }
 }
@@ -469,17 +459,17 @@ footer {
 @media screen and (max-width: 1160px) {
 
     /* Header*/
-    #header p {
+    #logo {
         font-size: 40px;
-    }
-
-    #header li {
-        padding: 10px;
-        font-size: 25px;
     }
 
     #menu {
         padding-right: 10px;
+    }
+
+    #menu li {
+        padding: 10px;
+        font-size: 25px;
     }
 
     /* Hero */
@@ -488,16 +478,17 @@ footer {
         background-position-x: left;
     }
 
-    .hero-heading {
+    .hero-title {
         font-size: 60px;
         letter-spacing: 2px;
     }
 
-    .hero-para {
+    .hero-text {
         font-size: 30px;
         letter-spacing: 2px;
     }
 
+    /* Main */
     .mc-text {
         margin: 0;
     }
@@ -511,7 +502,7 @@ footer {
         height: 200px;
     }
 
-    #wax-type:nth-child(2) {
+    .wax-type:nth-child(2) {
         margin: 100px 0;
     }
 
@@ -538,25 +529,25 @@ footer {
 @media screen and (max-width: 768px) {
 
     /* Header */
-    #header p {
+    #logo {
         font-size: 30px;
     }
 
-    #header li {
+    #menu li {
         font-size: 20px;
         padding: 5px 10px 0 10px;
     }
 
     /* Hero */
-    #hero-text {
+    #hero {
         padding-bottom: 350px;
     }
 
-    #hero h1 {
+    .hero-title {
         font-size: 50px;
     }
 
-    #hero p {
+    .hero-text {
         font-size: 25px;
     }
 
@@ -606,27 +597,24 @@ footer {
         justify-content: space-evenly;
     }
 
-    #header p {
+    #logo {
         font-size: 30px;
     }
 
     /* Hero */
     #hero {
         background-size: cover;
-    }
-
-    #hero-text {
         padding-bottom: 300px;
     }
 
-    #hero h1 {
+    .hero-title {
         font-size: 30px;
         font-weight: 400;
         letter-spacing: 1px;
         padding-bottom: 20px;
     }
 
-    #hero p {
+    .hero-text {
         font-size: 20px;
         letter-spacing: 0px;
     }
@@ -673,12 +661,12 @@ footer {
         height: 400px;
     }
 
-    #wax-type {
+    .wax-type {
         padding: 0;
         margin: 0;
     }
 
-    #wax-type:nth-child(2) {
+    .wax-type:nth-child(2) {
         margin: 10px 0;
     }
 
@@ -733,21 +721,21 @@ footer {
 @media screen and (max-width: 414px) {
 
     /* Header */
-    #header li {
+    #menu li {
         font-size: 15px;
     }
 
     /* Hero */
-    #hero-text {
+    #hero {
         padding-bottom: 400px;
     }
 
-    #hero h1 {
+    .hero-title {
         padding-bottom: 20px;
         font-size: 25px;
     }
 
-    #hero p {
+    .hero-text {
         font-size: 16px;
     }
 
@@ -785,11 +773,11 @@ footer {
 }
 
 @media screen and (max-width: 309px) {
-    #header p {
+    #logo {
         font-size: 25px;
     }
 
-    #header li {
+    #menu li {
         padding: 0 5px;
     }
 
