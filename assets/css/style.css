@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap");
 
+/* General */
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +25,8 @@ body {
 .active {
     border-bottom: 1px solid #aed9e0;
 }
+
+/* End of General */
 
 /* Header section */
 #header {
@@ -52,7 +55,7 @@ body {
     border-bottom: hidden;
 }
 
-#header h1 {
+#header p {
     font-size: 50px;
     letter-spacing: 2px;
     color: #aed9e0;
@@ -152,17 +155,9 @@ body {
     padding-bottom: 30px;
 }
 
-.mc-mid {
-    margin: 60px 0;
-}
-
-.mc-mid:nth-child(3) {
-    padding: 10px;
-}
-
 .mc-text p {
-    font-size: 25px;
-    padding: 15px;
+    font-size: 28px;
+    padding: 10px;
     text-align: center;
     font-weight: 400;
     line-height: 2rem;
@@ -212,6 +207,11 @@ body {
     width: 100%;
     line-height: 1.8rem;
     font-size: 20px;
+    margin-top: 15px;
+}
+
+.wax-text h3 {
+    margin-bottom: 8px;
 }
 
 .wax-img {
@@ -226,7 +226,7 @@ body {
     display: block;
     margin: 0 auto;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
 }
 
@@ -269,7 +269,7 @@ body {
 
 .about-block p {
     font-size: 20px;
-    line-height: 2rem;
+    padding-bottom: 10px;
 }
 
 /* End of About Section */
@@ -446,7 +446,7 @@ footer {
     /* Hero Section */
     #hero {
         background-position-x: -1cm;
-        padding: 0 0 40% 0;
+        padding: 0 0 30% 0;
     }
 
     #hero-text {
@@ -469,7 +469,7 @@ footer {
 @media screen and (max-width: 1160px) {
 
     /* Header*/
-    #header h1 {
+    #header p {
         font-size: 40px;
     }
 
@@ -485,6 +485,7 @@ footer {
     /* Hero */
     #hero {
         padding: 0 0 70% 0;
+        background-position-x: left;
     }
 
     .hero-heading {
@@ -537,16 +538,20 @@ footer {
 @media screen and (max-width: 768px) {
 
     /* Header */
-    #header h1 {
+    #header p {
         font-size: 30px;
     }
 
     #header li {
         font-size: 20px;
-        padding: 5px;
+        padding: 5px 10px 0 10px;
     }
 
     /* Hero */
+    #hero-text {
+        padding-bottom: 350px;
+    }
+
     #hero h1 {
         font-size: 50px;
     }
@@ -601,12 +606,8 @@ footer {
         justify-content: space-evenly;
     }
 
-    #header h1 {
-        font-size: 25px;
-    }
-
-    #header li {
-        font-size: 15px;
+    #header p {
+        font-size: 30px;
     }
 
     /* Hero */
@@ -615,17 +616,19 @@ footer {
     }
 
     #hero-text {
-        padding-bottom: 350px;
+        padding-bottom: 300px;
     }
 
     #hero h1 {
         font-size: 30px;
+        font-weight: 400;
         letter-spacing: 1px;
+        padding-bottom: 20px;
     }
 
     #hero p {
         font-size: 20px;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
     }
 
     /* Main */
@@ -648,6 +651,7 @@ footer {
 
     .mc-mid p {
         font-size: 18px;
+        line-height: 1.2rem;
     }
 
     .wax-text {
@@ -728,20 +732,71 @@ footer {
 
 @media screen and (max-width: 414px) {
 
+    /* Header */
+    #header li {
+        font-size: 15px;
+    }
+
     /* Hero */
     #hero-text {
-        padding-bottom: 280px;
+        padding-bottom: 400px;
     }
 
     #hero h1 {
         padding-bottom: 20px;
+        font-size: 25px;
     }
 
+    #hero p {
+        font-size: 16px;
+    }
+
+    /* Main */
     .wax-img {
         height: 300px;
+    }
+
+    .wax-text {
+        line-height: 1.4rem;
+    }
+
+    /* About */
+    .about-block h2 {
+        font-size: 22px;
+    }
+
+    .about-block p {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    /* Signup */
+    #form-container h2 {
+        font-size: 25px;
+    }
+
+    .form-control {
+        font-size: 15px;
+    }
+
+    .text-input {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 309px) {
+    #header p {
+        font-size: 25px;
+    }
+
+    #header li {
+        padding: 0 5px;
+    }
+
+    .wax-text {
+        height: 400px;
     }
 }
 
 /* End of Mobile Phones */
-
 /* END OF MEDIA QUERY */
