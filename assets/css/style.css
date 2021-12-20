@@ -16,14 +16,19 @@ body {
     min-height: 100vh;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 .active {
     border-bottom: 1px solid #aed9e0;
 }
 
-
 /* Header section */
 #header {
     background-color: #283845;
+    font-weight: 500;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -49,7 +54,7 @@ body {
 
 #header h1 {
     font-size: 50px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #aed9e0;
 }
 
@@ -73,78 +78,107 @@ body {
     color: #ffa69e;
 }
 
-
 /* End of Header section */
-#hero-img {
+
+/* Hero section */
+#hero {
     background-image: url("../images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
-    position: relative;
     height: 100vh;
     width: 100%;
-}
-
-#hero-title {
-    position: absolute;
-    top: 250px;
-    right: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     color: black;
+    padding: 0 0 30% 40%;
 }
 
 .hero-heading {
-    font-size: 4rem;
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: 2px;
     padding-bottom: 5rem;
 }
 
-.hero-text {
-    font-size: 2rem;
+.hero-para {
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
-/* Hero section */
+#hero-text {
+    margin-top: 200px;
+}
 
+/* End of Hero section */
 
 /* Main section */
 #main {
+    padding: 0 20px;
+}
+
+#main-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin: 0;
     flex-grow: 1;
 }
 
-.md-text h2 {
-    font-size: 35px;
-    padding: 100px 0;
-    text-align: center;
+.mc-text {
+    margin-top: 30px;
 }
 
-.md-text p {
-    font-size: 20px;
+.mc-heading {
+    background-color: #ffa69e41;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.507);
+    border-radius: 5px;
+    margin: 150px auto;
+    width: 100%;
+    max-width: 2400px;
+    padding: 40px;
+}
+
+.mc-heading h3 {
+    font-size: 40px;
+    font-weight: 400;
     text-align: center;
+    font-style: italic;
+}
+
+.mc-intro {
+    padding-bottom: 30px;
+}
+
+.mc-mid {
+    margin: 60px 0;
+}
+
+.mc-mid:nth-child(3) {
+    padding: 10px;
+}
+
+.mc-text p {
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    font-weight: 400;
     line-height: 2rem;
     width: 100%;
-    margin: 0 auto;
 }
-
 
 /* Wax Section */
-#wax {
-    margin-bottom: 100px;
-    height: 100%;
-}
-
-#wax-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.wax-title {
+#wax-container {
+    max-width: 3000px;
     margin: 100px auto;
-    text-align: center;
-    font-size: 25px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .bee {
@@ -168,56 +202,49 @@ body {
     overflow: hidden;
 }
 
+#wax-type {
+    padding: 0 20px;
+}
+
 .wax-text {
-    width: 400px;
-    margin-left: 10px;
+    max-width: 500px;
+    height: 240px;
+    width: 100%;
     line-height: 1.8rem;
-}
-
-.wax-text h3 {
-    margin: 20px 0 10px 0;
+    font-size: 20px;
 }
 
 .wax-img {
-    width: 400px;
-    height: 400px;
+    max-width: 500px;
+    height: 500px;
     border-radius: 10px;
-}
-
-.wax-img {
     box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
-    border-radius: 5px;
-    transition: 0.5s ease transform;
 }
-
-.wax-img:hover {
-    transform: scale(1.03);
-}
-
 
 /* Video section */
-#candle-compare-section h3 {
+#video-section h3 {
     display: block;
-    margin: 4rem auto;
+    margin: 0 auto;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: 400;
 }
 
 .candle-vid video {
     display: block;
     box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
-    margin: 2rem auto 150px auto;
+    margin: 30px auto 150px auto;
     width: 100%;
     max-width: 1000px;
     border-radius: 10px;
     cursor: pointer;
 }
 
-/* End of Video Section */
-
+/* End of Main Section */
 
 /* About section */
 #about {
+    padding: 0 20px;
     flex-grow: 1;
 }
 
@@ -227,22 +254,25 @@ body {
     height: 100%;
     margin: 100px auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    transition: 0.5s ease transform;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.507);
     border-radius: 5px;
 }
 
 .about-block h2 {
     margin: 10px 0 20px 0;
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 .about-block p {
-    font-size: 1.2rem;
+    font-size: 20px;
     line-height: 2rem;
 }
 
+/* End of About Section */
 
 /* Sign-Up Section */
 #form-section {
@@ -256,8 +286,8 @@ body {
 
 #form-container {
     background-color: #283845f3;
-    height: 500px;
-    width: 500px;
+    min-height: 500px;
+    max-width: 500px;
     padding: 25px 25px;
     margin: 300px auto;
     color: #aed9e0;
@@ -266,7 +296,7 @@ body {
 
 #form-container h2 {
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 400;
     margin-bottom: 30px;
 }
@@ -289,7 +319,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .submit-button {
@@ -314,7 +344,6 @@ body {
 }
 
 /* End of Sign-Up Section */
-
 
 /* Footer */
 footer {
@@ -375,3 +404,344 @@ footer {
 }
 
 /* End of Footer section */
+
+/* *** MEDIA QUERY *** */
+/* Ultra-Wide Desktop Screens */
+@media screen and (min-width: 2200px) {
+
+    /* Hero Section */
+    #hero {
+        position: relative;
+    }
+
+    #hero h1 {
+        position: absolute;
+        top: 200px;
+        right: 400px;
+    }
+
+    #hero p {
+        position: absolute;
+        top: 300px;
+        right: 400px;
+    }
+}
+
+/* End of Ultra-Wide Desktop Screens */
+
+/* Large Desktop screens */
+@media screen and (max-width: 1800px) {
+
+    /* Hero Section */
+    .mc-heading h3 {
+        font-size: 35px;
+    }
+}
+
+/* End of Large Desktop screens */
+
+/* Middle Desktop Screens */
+@media screen and (max-width: 1700px) and (min-width: 1160px) {
+
+    /* Hero Section */
+    #hero {
+        background-position-x: -1cm;
+        padding: 0 0 40% 0;
+    }
+
+    #hero-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .para {
+        margin-top: 50px;
+    }
+}
+
+/* End of Middle Desktop Screens */
+
+/* Small Desktop Screens */
+@media screen and (max-width: 1160px) {
+
+    /* Header*/
+    #header h1 {
+        font-size: 40px;
+    }
+
+    #header li {
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    #menu {
+        padding-right: 10px;
+    }
+
+    /* Hero */
+    #hero {
+        padding: 0 0 70% 0;
+    }
+
+    .hero-heading {
+        font-size: 60px;
+        letter-spacing: 2px;
+    }
+
+    .hero-para {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    .mc-text {
+        margin: 0;
+    }
+
+    #wax-container {
+        padding: 0 5px;
+    }
+
+    .wax-text {
+        max-width: 600px;
+        height: 200px;
+    }
+
+    #wax-type:nth-child(2) {
+        margin: 100px 0;
+    }
+
+    .wax-img {
+        max-width: 600px;
+        height: 600px;
+        margin-bottom: 20px;
+    }
+
+    #video-section {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    #video-section h3 {
+        font-size: 25px;
+        margin-top: 80px;
+    }
+}
+
+/* End of Small Desktop Screens */
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+
+    /* Header */
+    #header h1 {
+        font-size: 30px;
+    }
+
+    #header li {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    /* Hero */
+    #hero h1 {
+        font-size: 50px;
+    }
+
+    #hero p {
+        font-size: 25px;
+    }
+
+    /* Main */
+    #main {
+        padding: 0 2px;
+    }
+
+    #main-container {
+        padding: 0 10px;
+    }
+
+    .mc-heading {
+        margin: 40px 0;
+    }
+
+    .mc-heading h3 {
+        font-size: 25px;
+    }
+
+    .mc-mid {
+        margin: 100px 0 0 0;
+    }
+
+    .mc-mid p {
+        font-size: 22px;
+        padding: 10px 10px;
+    }
+
+    #wax-container {
+        margin-bottom: 0;
+    }
+
+    .wax-text p {
+        font-size: 20px;
+    }
+}
+
+/* End of Tablet */
+
+/* Mobile Phones */
+@media screen and (max-width: 600px) {
+
+    /* Header */
+    #header {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #header h1 {
+        font-size: 25px;
+    }
+
+    #header li {
+        font-size: 15px;
+    }
+
+    /* Hero */
+    #hero {
+        background-size: cover;
+    }
+
+    #hero-text {
+        padding-bottom: 350px;
+    }
+
+    #hero h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+    #hero p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    /* Main */
+    #main {
+        padding: 0 5px;
+    }
+
+    #main-container {
+        padding: 0;
+    }
+
+    .mc-heading {
+        padding: 7px;
+        margin: 60px 0;
+    }
+
+    .mc-heading h3 {
+        font-size: 20px;
+    }
+
+    .mc-mid p {
+        font-size: 18px;
+    }
+
+    .wax-text {
+        max-width: 500px;
+        height: 300px;
+    }
+
+    .wax-text h3 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .wax-text p {
+        font-size: 17px;
+    }
+
+    .wax-img {
+        max-width: 500px;
+        height: 400px;
+    }
+
+    #wax-type {
+        padding: 0;
+        margin: 0;
+    }
+
+    #wax-type:nth-child(2) {
+        margin: 10px 0;
+    }
+
+    #video-section h3 {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    /* About */
+    #about {
+        padding: 0 5px;
+    }
+
+    .about-block {
+        padding: 10px;
+    }
+
+    .about-block h2 {
+        font-size: 25px;
+    }
+
+    .about-block p {
+        font-size: 18px;
+    }
+
+    /* Sign Up */
+    #form-container {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #form-container h2 {
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .form-control {
+        font-size: 18px;
+    }
+
+    /* Footer */
+    .s-media {
+        padding: 0;
+        font-size: 20px;
+    }
+
+    .s-media li {
+        padding: 10px 10px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    /* Hero */
+    #hero-text {
+        padding-bottom: 280px;
+    }
+
+    #hero h1 {
+        padding-bottom: 20px;
+    }
+
+    .wax-img {
+        height: 300px;
+    }
+}
+
+/* End of Mobile Phones */
+
+/* END OF MEDIA QUERY */
