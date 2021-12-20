@@ -645,6 +645,7 @@ footer {
     .wax-text {
         max-width: 500px;
         height: 300px;
+        line-height: 1.4rem;
     }
 
     .wax-text h3 {
@@ -745,7 +746,7 @@ footer {
     }
 
     .wax-text {
-        line-height: 1.2rem;
+        line-height: 1.4rem;
     }
 
     /* About */
