@@ -649,7 +649,7 @@ footer {
 
     .wax-text h3 {
         font-size: 20px;
-        padding-bottom: 5px;
+        padding-bottom: 2px;
     }
 
     .wax-text p {
@@ -745,7 +745,7 @@ footer {
     }
 
     .wax-text {
-        line-height: 1.4rem;
+        line-height: 1.2rem;
     }
 
     /* About */
