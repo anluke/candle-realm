@@ -168,9 +168,9 @@ The live link can be found here: [Candle Realm](https://anluke.github.io/candle-
 
 - Media
 
-    - The image in the header was taken from [Unsplash](https://images.unsplash.com/photo-1557761830-8d36eedd1718?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80).
+    - The image in the hero section was taken from [Unsplash](https://images.unsplash.com/photo-1557761830-8d36eedd1718?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80).
 
-    - The image in the header was taken from [Pexels](https://images.pexels.com/photos/7445004/pexels-photo-7445004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260).
+    - The image in the sign-up section was taken from [Pexels](https://images.pexels.com/photos/7445004/pexels-photo-7445004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260).
 
     - The image in the main section for Candles was taken from [brambleberry](https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-Library/default/dw8dfa4417/images/articles/art0171-art0190/art0179-scented-candle-kits-testing.jpg).
 
