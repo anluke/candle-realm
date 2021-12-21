@@ -22,8 +22,10 @@ The idea is to look simple but informing enough to catch someone's attention in 
 ## Features
 
 
-![Nav Bar](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/navigation-bar.png?raw=true)
 - __Navigation__  
+
+    ![Nav Bar](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/navigation-bar.png?raw=true)
+
     - Featured on all three pages, the full responsive navigation bar includes links to the Logo that links to the top of the Home page.
   
     - The other navigations links are to the right: Home, About, and Sign Up page and are identical on each page to allow for easy navigation. They also change color upon hover and show active page underlined for easier navigation.
@@ -33,9 +35,9 @@ The idea is to look simple but informing enough to catch someone's attention in 
 
 <br />
 
-![Hero](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/hero-section.png?raw=true)
-
 - __Hero__  
+
+    ![Hero](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/hero-section.png?raw=true)
 
     - The Hero section contains a greeting and provides a user with clear information about what the site is and the idea behind the company.
 
@@ -50,11 +52,11 @@ The idea is to look simple but informing enough to catch someone's attention in 
     ![Main](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/main-section.png?raw=true)
 
     - The purpose of the Main Section is to provide a user with information regarding the company and ingredients that we use.  
-    It is just below the 'Hero-Section' but it's not taking too much space as the idea is to be inviting and informational about the products.
+    It is just below the 'Hero-Section' and contains two leading pictures with **Candles** & **Kits** and their description respectfully.
 
-    - It has another welcoming heading that's notifying a user that we are one of the best suppliers of custom-made products and 'Do-It-Yourself' kits.
+    - It is welcoming and notifying users that we are one of the best suppliers of custom-made products and 'Do-It-Yourself' kits.
 
-    - It also informs the user that all of the products are made locally and by hand. Depending on the user's needs we have everything to get them started.
+    - It also informs the user that all of the products are made by hand. Depending on the user's needs we have everything to get them started.
 
     - It also has three examples of the most popular types of wax: **BeesWax**, **Soy Wax** & **Paraffin Wax**.  
     Every ingredient has a description and a picture giving the best example of the difference between the three.  
@@ -65,9 +67,9 @@ The idea is to look simple but informing enough to catch someone's attention in 
 
 <br />
 
-![About](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/about-section.png?raw=true)
-
 - __About Section__
+
+    ![About](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/about-section.png?raw=true)
 
     - The About section shows the user important information they need to know about the Candle Realm.  
     Explains quickly who we are and why the customer should join us.
@@ -128,7 +130,7 @@ While writing a Media Query for Laptop devices I had moved the background image 
  ### Validator Testing
 
  - HTML
-    - No errors were returned when passing through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fanluke.github.io%2Fcandle-realm%2F).
+    - No errors were returned when passing through [W3C validator](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fanluke.github.io%2Fcandle-realm%2F).
 
 - CSS  
     - No errors were found when passing through the official [WRC(JigSaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanluke.github.io%2Fcandle-realm%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
@@ -170,6 +172,10 @@ The live link can be found here: [Candle Realm](https://anluke.github.io/candle-
 
     - The image in the header was taken from [Pexels](https://images.pexels.com/photos/7445004/pexels-photo-7445004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260).
 
+    - The image in the main section for Candles was taken from [brambleberry](https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-Library/default/dw8dfa4417/images/articles/art0171-art0190/art0179-scented-candle-kits-testing.jpg).
+
+    - The image in the main section for Kits was taken from [Willow & Finn Candles](https://cdn.shopify.com/s/files/1/0069/1866/8401/products/image_4ef06143-e2ba-4683-9586-716b7966d210.jpg?v=1633886380).
+
     - The image in the main section for BeesWax was taken from [post.heatline](https://post.healthline.com/wp-content/uploads/2019/10/Beeswax_Beauty_Products_732x549-thumbnail.jpg).
 
     - The image in the main section for Soy Wax was taken from [artnews](https://www.artnews.com/wp-content/uploads/2020/08/AdobeStock_310424293.jpeg).
@@ -177,3 +183,8 @@ The live link can be found here: [Candle Realm](https://anluke.github.io/candle-
     - The image in the main section for Soy Wax was taken from [fumeibee](https://www.fumeibee.com/wp-content/uploads/2021/04/sl-2.jpg).
 
     - The video in the main section for Wax Comparison was taken from YouTube, Account: [Sir Topham Hatt](https://www.youtube.com/watch?v=EoNDXLigmmk).
+
+
+ - Readme
+
+    - For Readme file I used [CI readme template](https://github.com/Code-Institute-Solutions/readme-template) as a general idea and built my project around similar layout.
