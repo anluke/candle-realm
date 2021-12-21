@@ -53,7 +53,7 @@ The idea is to look simple but informing enough to catch someone's attention in 
 
     - It also informs the user that all of the products are made locally and by hand. Depending on the user's needs we have everything to get them started.
 
-    - It also has three examples of the most popular types of wax currently in the world.  
+    - It also has three examples of the most popular types of wax: **BeesWax**, **Soy Wax** & **Paraffin Wax**.  
     Every ingredient has a description and a picture giving the best example of the difference between the three.  
     It also gives a quick description regarding their individual benefits or cons.
 
@@ -84,7 +84,16 @@ The idea is to look simple but informing enough to catch someone's attention in 
     - The Sign-Up form has a background image with warm colors matching the layout and giving that warm feeling.
 
     - The Submit button scales and changes color on hover, adding more functionality to the overall submit form.  
+<br />
 
+- __Footer__
+
+    ![Footer](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/footer-section.png?raw=true)
+
+    - The footer section is simple and visualy in line with the rest of the page.  
+    Social section is responding to hover increasing in size and changing color for better accessibility.
+    - It contains social media section on the top with all of the links working and opening in a new tab. Users can find us on **Facebook**, **Twitter**, **YouTube** and **Instagram**.
+    - It also contains a company logo **Candle Realm** and a copyright license respectfully.
 
 <br />
 
@@ -110,4 +119,15 @@ The idea is to look simple but informing enough to catch someone's attention in 
 ```
  - Removing the ```-1 cm``` and replacing it with ```left``` attribute fixed the issue and got the Hero image to respond how I intended.
 
+
  ### Validator Testing
+
+ - HTML
+    - No errors were returned when passing through [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fanluke.github.io%2Fcandle-realm%2F).
+
+- CSS  
+    - No errors were found when passing through the official [WRC(JigSaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanluke.github.io%2Fcandle-realm%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+
+- Validator Testing
+    - I confirmed that the color palette and font is easy to read and accessible by running it through **Lighthouse** in devtools.
+    ![Validator Testing](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/footer-section.png?raw=true)
