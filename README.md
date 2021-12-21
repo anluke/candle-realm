@@ -5,8 +5,7 @@
 This project is a static website for a fictitious Candle Making company, called **Candle Realm**.  
 The live website can be found [here](https://anluke.github.io/candle-realm/).
 
-
-
+<br />
 
 ## Purpose
 
@@ -15,6 +14,8 @@ The project was built using the knowledge and skills gained from the HTML & CSS.
 
 Project was built as an idea for a small company selling custom-made candles with natural ingredients but also oferring 'Do-It-Yourself' kits to showcase the simplicity in candle-making and mixing/testing different ingredients.  
 The idea is to look simple but informing enough to catch someone's attention in hope to build a relationship.
+
+<br />
 
 ## Features
 - __Navigation__  
@@ -26,7 +27,6 @@ The idea is to look simple but informing enough to catch someone's attention in 
     - The other navigations links are to the right: Home, About, and Sign Up page and are identical on each page to allow for easy navigation. They also change color upon hover and show active page underlined for easier navigation.
 
     - The navigation tells the user the name of the company and makes the different sections of the webpage easy to find.  
-
 <br />
 
 
@@ -40,7 +40,6 @@ The idea is to look simple but informing enough to catch someone's attention in 
     - The aim for a background was to be peaceful yet welcoming and to blend in well with other colors on the website.
 
     - Hero section should catch the user's attention and look like a cozy place.    
-
 <br />
 
 - __Main Section__  
@@ -60,12 +59,55 @@ The idea is to look simple but informing enough to catch someone's attention in 
 
     - At the bottom of the main section is a time-lapse video showing a difference between them in a Real-Life setting.  
     It has a nice melody to it and is also very positive and inviting.  
-
 <br />
 
 - __About Section__
 
     ![About](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/about-section.png?raw=true)
 
-    - 
+    - The About section shows the user important information they need to know about the Candle Realm.  
+    Explains quickly who we are and why the customer should join us.
 
+    - It has a couple of cards including **Who We Are**, **Why Us?**, **Our History**, and **Contact Us** card.
+
+    - At the bottom of the section is a simple but informational contact card including phone number, email address & company location.  
+<br />
+
+- __Sign Up Section__
+
+    ![Sign Up](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/sign-up.png?raw=true)
+
+     - The sign-up section has a form to collect basic details from users so they can get started with Code Realm membership.  
+
+    - The form collects the user's name, last name, and email address.
+
+    - The Sign-Up form has a background image with warm colors matching the layout and giving that warm feeling.
+
+    - The Submit button scales and changes color on hover, adding more functionality to the overall submit form.  
+
+
+<br />
+
+## Testing
+
+- I tested that this page works in different browsers: Chrome, Firefox, and Safari.
+
+- The page is responsive and contains all the functions across different screen sizes using the dev tools device toolbar.
+
+- I confirmed that header/navbar, hero, main-section, about, sign up and footer are all readable and easy to understand.
+
+- I also confirm that submit form works: requires an entry in every field and also checks if a user has put a correct email address by checking the email address format.
+
+
+### Bugs
+
+- When I tested my page through **Multi Device Website Mockup Generator** I discovered a slight offset in the hero background image. While writing a Media Query for Laptop devices I had moved the background image left by -1 cm instead of just moving it left to allow for better representation of the Hero image.
+
+```
+  #hero {
+    background-position-x: -1cm;
+  }
+```
+ - Removing the ```-1 cm``` and replacing it with ```left``` attribute fixed the issue and got the Hero image to respond how I intended.
+
+ ### Validator Testing
