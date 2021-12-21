@@ -12,7 +12,7 @@ The live website can be found [here](https://anluke.github.io/candle-realm/).
 ## Purpose
 
 This website was created to complete the first Milestone Project for the Code Institute's Full Stack Developer course.  
-The project was built using the knowledge and skills gained from the HTML & CSS. A full list of technologies can be found in the technologies section of this document.  
+The project was built using the knowledge and skills gained from the HTML & CSS.
 
 Project was built as an idea for a small company selling custom-made candles with natural ingredients but also oferring 'Do-It-Yourself' kits to showcase the simplicity in candle-making and mixing/testing different ingredients.  
 The idea is to look simple but informing enough to catch someone's attention in hope to build a relationship.
@@ -20,28 +20,29 @@ The idea is to look simple but informing enough to catch someone's attention in 
 <br />
 
 ## Features
+
+
+![Nav Bar](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/navigation-bar.png?raw=true)
 - __Navigation__  
-
-    ![Nav Bar](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/navigation-bar.png?raw=true)
-
     - Featured on all three pages, the full responsive navigation bar includes links to the Logo that links to the top of the Home page.
   
     - The other navigations links are to the right: Home, About, and Sign Up page and are identical on each page to allow for easy navigation. They also change color upon hover and show active page underlined for easier navigation.
 
-    - The navigation tells the user the name of the company and makes the different sections of the webpage easy to find.  
+    - The navigation tells the user the name of the company and makes the different sections of the webpage easy to find.
+
+
 <br />
 
-
+![Hero](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/hero-section.png?raw=true)
 
 - __Hero__  
-
-    ![Hero](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/hero-section.png?raw=true)
 
     - The Hero section contains a greeting and provides a user with clear information about what the site is and the idea behind the company.
 
     - The aim for a background was to be peaceful yet welcoming and to blend in well with other colors on the website.
 
-    - Hero section should catch the user's attention and look like a cozy place.    
+    - Hero section should catch the user's attention and look like a cozy place.
+
 <br />
 
 - __Main Section__  
@@ -61,11 +62,12 @@ The idea is to look simple but informing enough to catch someone's attention in 
 
     - At the bottom of the main section is a time-lapse video showing a difference between them in a Real-Life setting.  
     It has a nice melody to it and is also very positive and inviting.  
+
 <br />
 
-- __About Section__
+![About](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/about-section.png?raw=true)
 
-    ![About](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/about-section.png?raw=true)
+- __About Section__
 
     - The About section shows the user important information they need to know about the Candle Realm.  
     Explains quickly who we are and why the customer should join us.
@@ -173,3 +175,5 @@ The live link can be found here: [Candle Realm](https://anluke.github.io/candle-
     - The image in the main section for Soy Wax was taken from [artnews](https://www.artnews.com/wp-content/uploads/2020/08/AdobeStock_310424293.jpeg).
 
     - The image in the main section for Soy Wax was taken from [fumeibee](https://www.fumeibee.com/wp-content/uploads/2021/04/sl-2.jpg).
+
+    - The video in the main section for Wax Comparison was taken from YouTube, Account: [Sir Topham Hatt](https://www.youtube.com/watch?v=EoNDXLigmmk).
