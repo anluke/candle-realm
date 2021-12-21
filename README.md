@@ -5,6 +5,9 @@
 This project is a static website for a fictitious Candle Making company, called **Candle Realm**.  
 The live website can be found [here](https://anluke.github.io/candle-realm/).
 
+
+![Devices]()
+
 <br />
 
 ## Purpose
@@ -130,4 +133,42 @@ The idea is to look simple but informing enough to catch someone's attention in 
 
 - Validator Testing
     - I confirmed that the color palette and font is easy to read and accessible by running it through **Lighthouse** in devtools.
-    ![Validator Testing](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/footer-section.png?raw=true)
+
+        ![Validator Test](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/desktop-lighthouse.png?raw=true)
+
+### Unfixed Bugs
+
+No reports of bugs.
+
+<br />
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to Settings tab.
+  - From the source section drop-down menu, select the Master Branch.
+  - Once the master branch has been selected, the page provided the link to the completed website.
+
+The live link can be found here: [Candle Realm](https://anluke.github.io/candle-realm/)
+
+<br />
+
+## Credits
+
+- Content
+
+    - The markup code for social media links was taken from the [CI Love-Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions).
+
+    - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+- Media
+
+    - The image in the header was taken from [Unsplash](https://images.unsplash.com/photo-1557761830-8d36eedd1718?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80).
+
+    - The image in the header was taken from [Pexels](https://images.pexels.com/photos/7445004/pexels-photo-7445004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260).
+
+    - The image in the main section for BeesWax was taken from [post.heatline](https://post.healthline.com/wp-content/uploads/2019/10/Beeswax_Beauty_Products_732x549-thumbnail.jpg).
+
+    - The image in the main section for Soy Wax was taken from [artnews](https://www.artnews.com/wp-content/uploads/2020/08/AdobeStock_310424293.jpeg).
+
+    - The image in the main section for Soy Wax was taken from [fumeibee](https://www.fumeibee.com/wp-content/uploads/2021/04/sl-2.jpg).
