@@ -106,9 +106,6 @@ body {
     letter-spacing: 2px;
 }
 
-/* #hero-text {
-  margin-top: 200px;
-} */
 /* End of Hero section */
 
 /* Main section */
@@ -120,11 +117,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    flex-grow: 1;
-}
-
-.mc-text {
     margin-top: 30px;
+    flex-grow: 1;
 }
 
 .mc-heading {
@@ -148,7 +142,7 @@ body {
     padding-bottom: 30px;
 }
 
-.mc-text p {
+.wax-note {
     font-size: 28px;
     padding: 10px;
     text-align: center;
@@ -158,15 +152,24 @@ body {
 }
 
 /* Wax Section */
-#wax-container {
+#wax-container,
+#products-container {
     max-width: 3000px;
-    margin: 100px auto;
+    margin: 80px auto 100px auto;
     padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.product {
+    background-image: url(../images/candles.jpg);
+}
+
+.kit {
+    background-image: url(../images/candle-making-kit.jpg);
 }
 
 .bee {
@@ -183,7 +186,9 @@ body {
 
 .bee,
 .soy,
-.para {
+.para,
+.product,
+.kit {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -201,6 +206,7 @@ body {
     line-height: 1.8rem;
     font-size: 20px;
     margin-top: 15px;
+    text-align: left;
 }
 
 .wax-text h3 {
@@ -493,7 +499,8 @@ footer {
         margin: 0;
     }
 
-    #wax-container {
+    #wax-container,
+    #products-container {
         padding: 0 5px;
     }
 
@@ -572,17 +579,14 @@ footer {
         margin: 100px 0 0 0;
     }
 
-    .mc-mid p {
-        font-size: 22px;
-        padding: 10px 10px;
-    }
-
-    #wax-container {
+    #wax-container,
+    #products-container {
         margin-bottom: 0;
     }
 
-    .wax-text p {
-        font-size: 20px;
+    .wax-note {
+        font-size: 25px;
+        padding: 10px 10px;
     }
 }
 
@@ -637,11 +641,6 @@ footer {
         font-size: 20px;
     }
 
-    .mc-mid p {
-        font-size: 18px;
-        line-height: 1.2rem;
-    }
-
     .wax-text {
         max-width: 500px;
         height: 300px;
@@ -653,8 +652,9 @@ footer {
         padding-bottom: 2px;
     }
 
-    .wax-text p {
-        font-size: 17px;
+    .wax-note {
+        font-size: 20px;
+        line-height: 1.2rem;
     }
 
     .wax-img {
@@ -747,7 +747,9 @@ footer {
     }
 
     .wax-text {
+        font-size: 18px;
         line-height: 1.4rem;
+        height: 250px;
     }
 
     /* About */
