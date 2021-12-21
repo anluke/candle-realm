@@ -6,9 +6,8 @@ This project is a static website for a fictitious Candle Making company, called 
 The live website can be found [here](https://anluke.github.io/candle-realm/).
 
 
-![Devices]()
+![Devices](https://github.com/anluke/candle-realm/blob/main/assets/readme-images/multi-device%20layout.png?raw=true)
 
-<br />
 
 ## Purpose
 
@@ -113,7 +112,8 @@ The idea is to look simple but informing enough to catch someone's attention in 
 
 ### Bugs
 
-- When I tested my page through **Multi Device Website Mockup Generator** I discovered a slight offset in the hero background image. While writing a Media Query for Laptop devices I had moved the background image left by -1 cm instead of just moving it left to allow for better representation of the Hero image.
+- When I tested my page through **Multi Device Website Mockup Generator** I discovered a slight offset in the hero background image.  
+While writing a Media Query for Laptop devices I had moved the background image left by ```-1 cm``` instead of moving it ```left``` to allow for better representation of the Hero background image.
 
 ```
   #hero {
@@ -160,6 +160,7 @@ The live link can be found here: [Candle Realm](https://anluke.github.io/candle-
     - The markup code for social media links was taken from the [CI Love-Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions).
 
     - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
 
 - Media
 
